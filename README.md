@@ -9,8 +9,8 @@ Anomaly Detection is a lightweight, graph anomaly detection repository for node-
 Recommended: Python 3.10 or 3.11.
 
 ```bash
-conda create -n agentgad python=3.10 -y
-conda activate agentgad
+conda create -n signgad python=3.10 -y
+conda activate signgad
 pip install -r requirements.txt
 ```
 
