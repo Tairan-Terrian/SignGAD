@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 Notes: To facilitate reproducibility for researchers with limited GPU resources, we use API-key-based LLM calls in our implementation, which avoids the need for substantial local GPU resources. Users with sufficient computational resources may also deploy the LLM locally.
 
-Optional: enable LLM-assisted planning by setting with your API key in src/config/config.py.
+Optional: enable LLM-assisted planning by setting with your API key in `src/config/config.py`.
 
 ```bash
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY") or "YOUR_API_KEY"
