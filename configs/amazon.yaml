@@ -1,0 +1,19 @@
+dataset: data/Amazon.mat
+description: |
+  domain: e-commerce review fraud detection
+  dataset name: Amazon / Amazon-Fraud
+  node semantics: users or user-review entities in an Amazon review interaction graph
+  edge semantics: behavioral relationships between users based on shared products, ratings, reviews, or votes
+  relation net_upu: users connected through shared product interactions
+  relation net_usu: users connected through shared star-rating patterns
+  relation net_uvu: users connected through shared review text or voting behavior
+  node features: 25-dimensional handcrafted behavior features extracted from user-review activity
+  label semantics: fraudulent or suspicious users vs. benign users
+  anomaly objective: detect fraudulent or suspicious review-centric nodes in an e-commerce review graph
+  anomaly type: node-level anomaly detection
+  graph type: multi-relation attributed graph
+  application scenario: identifying fake reviewers, coordinated review abuse, opinion spam, or other suspicious e-commerce review behavior
+train_ratio: 0.01
+val_ratio: 0.495
+test_ratio: 0.495
+seed: 42

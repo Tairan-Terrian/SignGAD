@@ -1,0 +1,17 @@
+dataset: data/tsocial
+description: |
+  domain: social network anomaly detection
+  dataset name: T-Social / TSocial
+  node semantics: unique anonymized accounts in a social network
+  edge semantics: long-term friendship relationships between accounts
+  relation net_friend: two accounts are connected if they have maintained a friend relationship for more than three months
+  node features: 10-dimensional account features related to registration days, logging activities, and interaction frequency
+  label semantics: anomalous accounts vs. normal accounts; anomalous accounts follow the same annotation semantics as T-Finance
+  anomaly objective: detect suspicious or anomalous account nodes in a large-scale social network
+  anomaly type: node-level anomaly detection
+  graph type: single-relation attributed graph
+  application scenario: identifying abnormal social accounts, fraudulent accounts, coordinated malicious accounts, or high-risk accounts in social platforms
+train_ratio: 0.01
+val_ratio: 0.495
+test_ratio: 0.495
+seed: 42

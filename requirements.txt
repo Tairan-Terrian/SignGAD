@@ -1,0 +1,11 @@
+# Pip-installable runtime dependencies for SignGAD.
+# Install with: pip install -r requirements.txt
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+PyYAML==6.0.3
+openai==2.31.0
+requests==2.33.1
+dgl==1.1.3
+torch==2.5.1
+torchdata==0.7.1

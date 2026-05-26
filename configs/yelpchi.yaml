@@ -1,0 +1,19 @@
+dataset: data/YelpChi.mat
+description: |
+  domain: review fraud detection
+  dataset name: YelpChi / YelpChi-Fraud
+  node semantics: reviews posted on Yelp for local businesses such as hotels and restaurants
+  edge semantics: behavioral relationships between reviews based on reviewer identity, rating behavior, product/business context, and posting time
+  relation net_rur: reviews written by the same user
+  relation net_rsr: reviews posted for the same business with the same star rating
+  relation net_rtr: reviews posted for the same business within the same time window
+  node features: 32-dimensional handcrafted features extracted from review records, reviewer behavior, and business-related review statistics
+  label semantics: fraudulent or spam reviews vs. benign reviews
+  anomaly objective: detect suspicious or fraudulent review nodes in a local-business review graph
+  anomaly type: node-level anomaly detection
+  graph type: multi-relation attributed graph
+  application scenario: identifying fake reviews, opinion spam, coordinated review attacks, or deceptive review behavior on local review platforms
+train_ratio: 0.01
+val_ratio: 0.495
+test_ratio: 0.495
+seed: 42

@@ -1,0 +1,17 @@
+dataset: data/tfinance
+description: |
+  domain: financial fraud detection
+  dataset name: T-Finance / TFinance
+  node semantics: unique anonymized accounts in a financial transaction network
+  edge semantics: transaction relationships between accounts
+  relation net_transaction: two accounts are connected if they have transaction records with each other
+  node features: 10-dimensional account features related to registration days, logging activities, and interaction frequency
+  label semantics: anomalous accounts vs. normal accounts; anomalous accounts include categories such as fraud, money laundering, and online gambling
+  anomaly objective: detect suspicious or fraudulent account nodes in a financial transaction graph
+  anomaly type: node-level anomaly detection
+  graph type: single-relation attributed graph
+  application scenario: identifying fraudulent accounts, money-laundering accounts, online gambling accounts, or other high-risk financial accounts in transaction networks
+train_ratio: 0.01
+val_ratio: 0.495
+test_ratio: 0.495
+seed: 42
