@@ -107,15 +107,15 @@ runs/amazon_20260507_162541.json
 ```
 
 ## 📰 Custom Usage
-Researchers can design their own datasets for model training
+Researchers can design their own datasets for model training.
 
 A minimal config looks like this:
 
 ```yaml
-dataset: data/Amazon.mat
+dataset: data/YOUR_DATASET.mat
 description: |
-  domain: review fraud detection
-  anomaly objective: detect fraudulent users
+  domain: YOUR_DOMAIN_DESCRIPTION
+  anomaly objective: YOUR_ANOMALY_OBJECTIVE
 train_ratio: 0.01
 val_ratio: 0.495
 test_ratio: 0.495
