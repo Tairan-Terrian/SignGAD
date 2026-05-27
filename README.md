@@ -3,8 +3,9 @@
 Detect by Yourself: Self-Designing Agentic Workflows for Few-Shot Graph
 Anomaly Detection is a lightweight, graph anomaly detection repository for node-level anomaly detection.
 
+![](framework.png)
 
-## Installation
+## 🛠️ Installation
 
 Recommended: Python 3.10 or 3.11.
 
@@ -27,7 +28,7 @@ Optional: enable LLM-assisted planning by setting with your API key in `src/conf
 ```
 
 
-## Datasets
+## 🔬 Datasets
 
 Datasets are expected under `data/`.
 
@@ -41,7 +42,7 @@ Datasets are expected under `data/`.
 - Features: 25-dimensional handcrafted behavior features
 - Relations: `net_upu`, `net_usu`, `net_uvu`
 - Source: DGL `FraudAmazonDataset`
-- URL: https://data.dgl.ai/dataset/FraudAmazon.zip
+- URL: https://data.dgl.ai/dataset/FraudAmazon.zip or https://docs.dgl.ai/en/0.8.x/api/python/dgl.data.html
 
 ### YelpChi
 
@@ -51,7 +52,7 @@ Datasets are expected under `data/`.
 - Features: 32-dimensional handcrafted behavior features
 - Relations: `net_rur`, `net_rsr`, `net_rtr`
 - Source: DGL `FraudYelpDataset`
-- URL: https://data.dgl.ai/dataset/FraudYelp.zip
+- URL: https://data.dgl.ai/dataset/FraudYelp.zip or https://docs.dgl.ai/en/0.8.x/api/python/dgl.data.html
 
 If `data/Amazon.mat` or `data/YelpChi.mat` is missing, the code downloads and extracts it automatically with a progress bar.
 
@@ -60,8 +61,9 @@ If `data/Amazon.mat` or `data/YelpChi.mat` is missing, the code downloads and ex
 - Configs: `configs/tfinance.yaml`, `configs/tsocial.yaml`
 - Paths: `data/tfinance`, `data/tsocial`
 - These are not auto-downloaded. Put the DGL graph files under `data/` before running them.
+- URL: https://github.com/squareRoot3/Rethinking-Anomaly-Detection
 
-## Quick Start
+## ✨ Quick Start
 
 Run Amazon:
 
@@ -88,7 +90,7 @@ Full run logs are saved under `runs/`, for example:
 runs/amazon_20260507_162541.json
 ```
 
-## Custom Datasets
+## 📰 Custom Usage
 Researchers can design their own datasets for model training
 
 A minimal config looks like this:
@@ -110,7 +112,7 @@ Then create a config and run:
 python main.py --config configs/your_config.yaml
 ```
 
-## Custom DGL Graph Dataset
+### Custom DGL Graph Dataset
 
 For non-`.mat` graph files, the loader expects a homogeneous DGL graph saved with `dgl.data.utils.save_graphs`. Node data must include:
 
@@ -120,3 +122,5 @@ label
 ```
 
 Optional `train_mask`, `val_mask`, and `test_mask` node fields are used when present. Otherwise the split ratios from the config are used.
+
+
