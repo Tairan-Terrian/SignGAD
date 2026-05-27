@@ -1,5 +1,21 @@
 # Detect by Yourself: Self-Designing Agentic Workflows for Few-Shot Graph Anomaly Detection
 
+
+<p align="center">
+	<!-- <a href="https://iclr.cc/virtual/2026/poster/10006814">
+    <img src="https://img.shields.io/badge/Publish-ICLR%202026-4b44ce.svg" alt="ICLR 2026">
+  </a> -->
+  <!-- <a href="https://arxiv.org/abs/2510.04284">
+    <img src="https://img.shields.io/badge/Paper-arXiv:2510.04284-b31b1b.svg" alt="Paper">
+  </a> -->
+  <a href="https://github.com/Tairan-Terrian/SignGAD">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-SignGAD-yellow.svg" alt="Hugging Face">
+  </a>
+  <a href="https://github.com/Tairan-Terrian/SignGAD/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  </a>
+</p>
+
 Detect by Yourself: Self-Designing Agentic Workflows for Few-Shot Graph
 Anomaly Detection is a lightweight, graph anomaly detection repository for node-level anomaly detection.
 
