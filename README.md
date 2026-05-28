@@ -107,7 +107,7 @@ runs/amazon_20260507_162541.json
 ```
 
 ## 📰 Custom Usage
-Researchers can design their own datasets for model training.
+Our framework is highly scalable, and users can employ **their different datasets** for model training.
 
 A minimal config looks like this:
 
