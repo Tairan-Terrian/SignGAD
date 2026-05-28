@@ -148,7 +148,7 @@ If you find our work useful in your research, please consider citing our paper:
 ```bibtex
 @article{SignGAD,
   title={Detect by Yourself: Self-Designing Agentic Workflows for Few-Shot Graph Anomaly Detection},
-  author={Tairan Huang and Qiang Chen and Yili Wang and Yueyue Ma and Changlong He and Xiu Su and Yi Chen},
+  author={Huang, Tairan and Chen, Qiang and Wang, Yili and Ma, Yueyue and He, Changlong and Su, Xiu and Chen, Yi},
   journal={arXiv preprint arXiv:2605.27470},
   year={2026}
 }
