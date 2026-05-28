@@ -5,12 +5,12 @@
 	<!-- <a href="https://iclr.cc/virtual/2026/poster/10006814">
     <img src="https://img.shields.io/badge/Publish-ICLR%202026-4b44ce.svg" alt="ICLR 2026">
   </a> -->
-  <!-- <a href="https://arxiv.org/abs/2510.04284">
+  <a href="https://arxiv.org/abs/2605.27470">
     <img src="https://img.shields.io/badge/Paper-arXiv:2510.04284-b31b1b.svg" alt="Paper">
-  </a> -->
-  <a href="https://github.com/Tairan-Terrian/SignGAD">
-    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-SignGAD-yellow.svg" alt="Hugging Face">
   </a>
+  <!-- <a href="https://github.com/Tairan-Terrian/SignGAD">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-SignGAD-yellow.svg" alt="Hugging Face">
+  </a> -->
   <a href="https://github.com/Tairan-Terrian/SignGAD/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   </a>
@@ -138,5 +138,27 @@ label
 ```
 
 Optional `train_mask`, `val_mask`, and `test_mask` node fields are used when present. Otherwise the split ratios from the config are used.
+
+
+
+## 📜 Citation
+
+If you find our work useful in your research, please consider citing our paper:
+
+```bibtex
+@article{SignGAD,
+  title={Detect by Yourself: Self-Designing Agentic Workflows for Few-Shot Graph Anomaly Detection},
+  author={Tairan Huang and Qiang Chen and Yili Wang and Yueyue Ma and Changlong He and Xiu Su and Yi Chen},
+  journal={arXiv preprint arXiv:2605.27470},
+  year={2026}
+}
+
+```
+
+
+
+
+
+
 
 
